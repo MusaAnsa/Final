@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Test1</display-name>
+  <servlet>
+        <servlet-name>SignupServlet</servlet-name>
+        <servlet-class>com.example.controller.SignupServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignupServlet</servlet-name>
+        <url-pattern>/signupServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.example.controller.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/loginServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>InventoryControllerServlet</servlet-name>
+        <servlet-class>com.example.controller.InventoryControllerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InventoryControllerServlet</servlet-name>
+        <url-pattern>/inventoryController</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>InventoryControllerServletupdate</servlet-name>
+        <servlet-class>com.example.controller.InventoryControllerServletupdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InventoryControllerServletupdate</servlet-name>
+        <url-pattern>/inventoryControllerupdate</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>InventoryControllerServletdelete</servlet-name>
+        <servlet-class>com.example.controller.InventoryControllerServletdelete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InventoryControllerServletdelete</servlet-name>
+        <url-pattern>/inventoryControllerdelete</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SalesControllerServlet</servlet-name>
+        <servlet-class>com.example.controller.SalesControllerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SalesControllerServlet</servlet-name>
+        <url-pattern>/SalesControllerServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SalesControllerServletUpdate</servlet-name>
+        <servlet-class>com.example.controller.SalesControllerServletUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SalesControllerServletUpdate</servlet-name>
+        <url-pattern>/SalesControllerServletUpdate</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SalesControllerServletDelete</servlet-name>
+        <servlet-class>com.example.controller.SalesControllerServletDelete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SalesControllerServletDelete</servlet-name>
+        <url-pattern>/SalesControllerServletDelete</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>CustomerControllerServlet</servlet-name>
+        <servlet-class>com.example.controller.CustomerControllerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CustomerControllerServlet</servlet-name>
+        <url-pattern>/CustomerControllerServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CustomerControllerServletUpdate</servlet-name>
+        <servlet-class>com.example.controller.CustomerControllerServletUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CustomerControllerServletUpdate</servlet-name>
+        <url-pattern>/CustomerControllerServletUpdate</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+        <servlet-name>CustomerControllerServletDelete</servlet-name>
+        <servlet-class>com.example.controller.CustomerControllerServletDelete</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CustomerControllerServletDelete</servlet-name>
+        <url-pattern>/CustomerControllerServletDelete</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <servlet-name>ProductControllerServlet</servlet-name>
+    <servlet-class>com.example.controller.ProductControllerServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ProductControllerServlet</servlet-name>
+    <url-pattern>/ProductControllerServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ProductControllerServletUpdate</servlet-name>
+    <servlet-class>com.example.controller.ProductControllerServletUpdate</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ProductControllerServletUpdate</servlet-name>
+    <url-pattern>/ProductControllerServletUpdate</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ProductControllerServletDelete</servlet-name>
+    <servlet-class>com.example.controller.ProductControllerServletDelete</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ProductControllerServletDelete</servlet-name>
+    <url-pattern>/ProductControllerServletDelete</url-pattern>
+</servlet-mapping>
+
+<servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>com.example.controller.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logoutServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+</web-app>
